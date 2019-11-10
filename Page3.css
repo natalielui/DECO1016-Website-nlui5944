@@ -1,0 +1,128 @@
+
+
+
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+h3 { 
+  font-weight:bold;
+  color: #ffffff;
+  font-size: 25px;
+}
+  
+ 
+  
+  .container {
+    background-color: #f2f2f2;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    padding: 200px 500px 200px 500px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    opacity: 0.9;
+  }
+  
+  /*  start of second part */
+
+  body {
+    font-family: $font-family;
+    font-size: $font-size;
+    background-size: 200% 100% !important;
+    animation: move 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    height: 100vh
+}
+
+
+.btn {
+  background-color: #77c3ec;
+  color: white;
+  padding: 14px 89px;
+  margin: center;
+  border: none;
+  text-align: center;
+  width: 120 px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin: valuepx;
+  display: inline-block;
+  
+}
+
+.btn:hover {
+  background-color: #0f5298;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+.btn {
+  border-color: #77c3ec;
+  color: #333333
+  ;   /* text color/ register now button */
+}
+
+.btn:hover {
+  background-color: #addae6;
+  color: white; /* text color/ register now button */
+}
+}
+
+@keyframes NO {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50px, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+
+
