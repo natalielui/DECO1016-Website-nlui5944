@@ -165,6 +165,8 @@ h1 {
   }
   } 
   
+  /* BACKGROUND ANIMATION */
+  
   @keyframes arrive {
       0% {
           opacity: 0;
