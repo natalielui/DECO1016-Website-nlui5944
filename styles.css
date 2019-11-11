@@ -118,28 +118,7 @@ span.price {
   color: white; /* text color/ register now button */
 }
 }
- /* .btn {
-  border:0px solid black;
-  background-color: #77c3ec;
-  color: black;
-  padding: 14px 120px;
-  
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  
-}
-
-/* register now */
-  /*.btn {
-  border-color: #77c3ec;
-  color: #333333
-  ;   /* text color/ register now button */
-}
-
-/* .btn:hover {
-  background-color: #addae6;
-  color: white; /* text color/ register now button */
+ 
 }
 } 
 
