@@ -145,7 +145,7 @@ h1 {
     border:0px solid black;
     background-color: #77c3ec;
     color: black;
-    padding: 14px 119px;
+    padding: 14px 100px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
@@ -163,12 +163,7 @@ h1 {
     background-color: #addae6;
     color: white; /* text color/ register now button */
   }
-  }
-
-  
-  
-  
-  
+  } 
   
   @keyframes arrive {
       0% {
